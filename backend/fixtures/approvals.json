@@ -1,0 +1,432 @@
+{
+  "documents": [
+    {
+      "template_name": "품의서",
+      "title": "1월 팀 회식비 품의",
+      "content_json": "{\"amount\": 350000, \"purpose\": \"개발팀 1월 회식\", \"participants\": 4, \"venue\": \"역삼동 고기집\"}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "김개발",
+      "submitted_at": "2026-01-05T10:00:00+09:00",
+      "completed_at": "2026-01-06T14:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "승인합니다", "acted_at": "2026-01-05T14:00:00+09:00"},
+        {"approver_name": "이영업", "step_order": 2, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": null, "acted_at": "2026-01-06T14:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "지출결의서",
+      "title": "1월 사무용품 구매",
+      "content_json": "{\"items\": [{\"name\": \"A4 용지 10박스\", \"price\": 85000}, {\"name\": \"토너 카트리지 2개\", \"price\": 120000}], \"total\": 205000}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "최총무",
+      "submitted_at": "2026-01-07T09:30:00+09:00",
+      "completed_at": "2026-01-07T16:00:00+09:00",
+      "lines": [
+        {"approver_name": "이영업", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "승인", "acted_at": "2026-01-07T16:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "AWS 서버 증설 비용",
+      "content_json": "{\"amount\": 5200000, \"purpose\": \"운영 서버 EC2 인스턴스 3대 추가\", \"period\": \"2026년 1분기\", \"monthly_cost\": 1733333}",
+      "status": "APPROVED",
+      "urgency": "URGENT",
+      "submitted_by_name": "한인프라",
+      "submitted_at": "2026-01-08T11:00:00+09:00",
+      "completed_at": "2026-01-09T17:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "긴급 승인합니다. 서비스 안정성 확보 필요.", "acted_at": "2026-01-08T14:00:00+09:00"},
+        {"approver_name": "이영업", "step_order": 2, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "승인합니다", "acted_at": "2026-01-09T17:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "출장신청서",
+      "title": "부산 고객사 미팅 출장",
+      "content_json": "{\"destination\": \"부산 해운대구\", \"client\": \"(주)해양테크\", \"start_date\": \"2026-01-13\", \"end_date\": \"2026-01-14\", \"estimated_cost\": 450000}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "이영업",
+      "submitted_at": "2026-01-09T10:00:00+09:00",
+      "completed_at": "2026-01-09T15:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": null, "acted_at": "2026-01-09T15:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "지출결의서",
+      "title": "출장비 정산 (부산)",
+      "content_json": "{\"items\": [{\"name\": \"KTX 왕복\", \"price\": 118600}, {\"name\": \"숙박비\", \"price\": 150000}, {\"name\": \"식비\", \"price\": 85000}, {\"name\": \"택시비\", \"price\": 35000}], \"total\": 388600}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "이영업",
+      "submitted_at": "2026-01-15T09:00:00+09:00",
+      "completed_at": "2026-01-16T11:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "정산 확인", "acted_at": "2026-01-16T11:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "개발팀 모니터 추가 구매",
+      "content_json": "{\"amount\": 1560000, \"purpose\": \"개발팀 듀얼 모니터 세팅\", \"items\": [{\"name\": \"Dell U2723QE 4K 27인치\", \"qty\": 2, \"unit_price\": 780000}]}",
+      "status": "REJECTED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "김개발",
+      "submitted_at": "2026-01-16T14:00:00+09:00",
+      "completed_at": "2026-01-16T17:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "필요성 인정", "acted_at": "2026-01-16T15:30:00+09:00"},
+        {"approver_name": "이영업", "step_order": 2, "line_type": "SEQUENTIAL", "status": "REJECTED", "comment": "1분기 IT 예산 초과. 2분기 재신청 바랍니다.", "acted_at": "2026-01-16T17:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "업무협조전",
+      "title": "2026년 연차 사용 촉진 안내 협조",
+      "content_json": "{\"subject\": \"연차 사용 촉진\", \"request\": \"각 팀별 상반기 연차 사용 계획 제출 요청\", \"deadline\": \"2026-01-31\"}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "정인사",
+      "submitted_at": "2026-01-20T10:00:00+09:00",
+      "completed_at": "2026-01-21T09:30:00+09:00",
+      "lines": [
+        {"approver_name": "이영업", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": null, "acted_at": "2026-01-21T09:30:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "사내 카페테리아 커피머신 교체",
+      "content_json": "{\"amount\": 2800000, \"purpose\": \"노후 커피머신 교체\", \"current_model\": \"DeLonghi ECAM350.75\", \"new_model\": \"Jura Z10\"}",
+      "status": "CANCELLED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "최총무",
+      "submitted_at": "2026-01-22T11:00:00+09:00",
+      "completed_at": null,
+      "lines": [
+        {"approver_name": "이영업", "step_order": 1, "line_type": "SEQUENTIAL", "status": "CANCELLED", "comment": null, "acted_at": null}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "2월 팀 회식비 품의",
+      "content_json": "{\"amount\": 420000, \"purpose\": \"경영지원본부 2월 회식\", \"participants\": 4, \"venue\": \"강남역 이자카야\"}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "최총무",
+      "submitted_at": "2026-02-02T10:00:00+09:00",
+      "completed_at": "2026-02-03T11:00:00+09:00",
+      "lines": [
+        {"approver_name": "이영업", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "승인합니다", "acted_at": "2026-02-03T11:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "Q1 마케팅 예산",
+      "content_json": "{\"amount\": 8000000, \"purpose\": \"Q1 온라인 마케팅 집행\", \"breakdown\": {\"google_ads\": 3000000, \"meta_ads\": 2500000, \"content_production\": 2500000}}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "이영업",
+      "submitted_at": "2026-02-03T14:00:00+09:00",
+      "completed_at": "2026-02-05T10:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "마케팅팀과 협의 완료", "acted_at": "2026-02-04T09:00:00+09:00"},
+        {"approver_name": "이영업", "step_order": 2, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": null, "acted_at": "2026-02-05T10:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "지출결의서",
+      "title": "서버 UPS 배터리 교체 비용",
+      "content_json": "{\"items\": [{\"name\": \"APC RBC55 배터리\", \"qty\": 2, \"price\": 380000}], \"total\": 760000}",
+      "status": "APPROVED",
+      "urgency": "URGENT",
+      "submitted_by_name": "한인프라",
+      "submitted_at": "2026-02-05T15:00:00+09:00",
+      "completed_at": "2026-02-06T09:30:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "긴급 처리 바랍니다", "acted_at": "2026-02-05T16:00:00+09:00"},
+        {"approver_name": "이영업", "step_order": 2, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": null, "acted_at": "2026-02-06T09:30:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "출장신청서",
+      "title": "대전 데이터센터 점검 출장",
+      "content_json": "{\"destination\": \"대전 유성구 KT IDC\", \"purpose\": \"서버 하드웨어 점검 및 네트워크 설정\", \"start_date\": \"2026-02-10\", \"end_date\": \"2026-02-10\", \"estimated_cost\": 150000}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "한인프라",
+      "submitted_at": "2026-02-06T10:00:00+09:00",
+      "completed_at": "2026-02-06T15:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": null, "acted_at": "2026-02-06T15:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "사내 교육 프로그램 운영비",
+      "content_json": "{\"amount\": 3500000, \"purpose\": \"상반기 직무 교육 프로그램 운영\", \"programs\": [\"리더십 과정\", \"프로젝트 관리\", \"보안 인식 교육\"]}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "정인사",
+      "submitted_at": "2026-02-09T09:00:00+09:00",
+      "completed_at": "2026-02-10T14:00:00+09:00",
+      "lines": [
+        {"approver_name": "이영업", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "좋은 기획입니다", "acted_at": "2026-02-10T14:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "업무협조전",
+      "title": "VPN 클라이언트 업데이트 협조 요청",
+      "content_json": "{\"subject\": \"VPN 업데이트\", \"request\": \"전 직원 VPN v3.2 업데이트 안내 요청\", \"deadline\": \"2026-03-06\"}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "한인프라",
+      "submitted_at": "2026-02-11T10:30:00+09:00",
+      "completed_at": "2026-02-11T16:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": null, "acted_at": "2026-02-11T16:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "지출결의서",
+      "title": "2월 야근 식대 정산",
+      "content_json": "{\"items\": [{\"name\": \"야근 식대 (김개발 12회)\", \"price\": 120000}, {\"name\": \"야근 식대 (한인프라 10회)\", \"price\": 100000}], \"total\": 220000}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "김개발",
+      "submitted_at": "2026-02-13T09:00:00+09:00",
+      "completed_at": "2026-02-14T10:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": null, "acted_at": "2026-02-13T15:00:00+09:00"},
+        {"approver_name": "이영업", "step_order": 2, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "야근 식대 정책 준수 확인", "acted_at": "2026-02-14T10:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "개발 서적 구매 (팀 공용)",
+      "content_json": "{\"amount\": 280000, \"purpose\": \"개발팀 기술 서적 구매\", \"books\": [\"Clean Architecture\", \"도메인 주도 설계\", \"Kubernetes in Action\", \"실용주의 프로그래머\"]}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "김개발",
+      "submitted_at": "2026-02-17T11:00:00+09:00",
+      "completed_at": "2026-02-18T09:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "팀 역량 강화에 필요합니다", "acted_at": "2026-02-18T09:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "사무실 LED 조명 교체",
+      "content_json": "{\"amount\": 1200000, \"purpose\": \"2층 사무실 형광등 LED 교체\", \"qty\": 40, \"unit_price\": 30000}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "최총무",
+      "submitted_at": "2026-02-19T10:00:00+09:00",
+      "completed_at": "2026-02-20T15:00:00+09:00",
+      "lines": [
+        {"approver_name": "이영업", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "에너지 절감 효과 기대", "acted_at": "2026-02-20T15:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "Figma Enterprise 라이선스 구매",
+      "content_json": "{\"amount\": 1800000, \"purpose\": \"디자인 협업 도구 라이선스\", \"seats\": 3, \"period\": \"연간\"}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "박디자인",
+      "submitted_at": "2026-02-20T14:00:00+09:00",
+      "completed_at": "2026-02-23T11:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "디자인 생산성 향상 필요", "acted_at": "2026-02-23T09:00:00+09:00"},
+        {"approver_name": "이영업", "step_order": 2, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": null, "acted_at": "2026-02-23T11:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "지출결의서",
+      "title": "택배비 정산 (1-2월)",
+      "content_json": "{\"items\": [{\"name\": \"CJ대한통운 택배비 (47건)\", \"price\": 188000}], \"total\": 188000}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "최총무",
+      "submitted_at": "2026-02-25T09:00:00+09:00",
+      "completed_at": "2026-02-25T17:00:00+09:00",
+      "lines": [
+        {"approver_name": "이영업", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": null, "acted_at": "2026-02-25T17:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "인사 평가 시스템 외주 개발",
+      "content_json": "{\"amount\": 25000000, \"purpose\": \"인사 평가 시스템 고도화 외주 개발\", \"vendor\": \"(주)HR테크\", \"period\": \"3개월\"}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "정인사",
+      "submitted_at": "2026-02-26T10:00:00+09:00",
+      "completed_at": "2026-03-02T15:00:00+09:00",
+      "lines": [
+        {"approver_name": "이영업", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "필요성 인정. 계약 조건 확인 완료.", "acted_at": "2026-02-27T10:00:00+09:00"},
+        {"approver_name": "관리자", "step_order": 2, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "기술 검토 완료", "acted_at": "2026-02-27T16:00:00+09:00"},
+        {"approver_name": "이영업", "step_order": 3, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "최종 승인", "acted_at": "2026-03-02T15:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "3월 개발팀 회식비 품의",
+      "content_json": "{\"amount\": 300000, \"purpose\": \"개발팀 3월 회식\", \"participants\": 4, \"venue\": \"선릉역 삼겹살집\"}",
+      "status": "IN_PROGRESS",
+      "urgency": "NORMAL",
+      "submitted_by_name": "김개발",
+      "submitted_at": "2026-03-03T10:00:00+09:00",
+      "completed_at": null,
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "승인", "acted_at": "2026-03-03T14:00:00+09:00"},
+        {"approver_name": "이영업", "step_order": 2, "line_type": "SEQUENTIAL", "status": "PENDING", "comment": null, "acted_at": null}
+      ]
+    },
+    {
+      "template_name": "지출결의서",
+      "title": "3월 사무용품 구매",
+      "content_json": "{\"items\": [{\"name\": \"A4 용지 5박스\", \"price\": 42500}, {\"name\": \"포스트잇\", \"price\": 15000}, {\"name\": \"볼펜 20자루\", \"price\": 12000}], \"total\": 69500}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "최총무",
+      "submitted_at": "2026-03-04T09:30:00+09:00",
+      "completed_at": "2026-03-04T16:00:00+09:00",
+      "lines": [
+        {"approver_name": "이영업", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": null, "acted_at": "2026-03-04T16:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "GitHub Enterprise 라이선스 갱신",
+      "content_json": "{\"amount\": 4200000, \"purpose\": \"GitHub Enterprise 연간 라이선스 갱신\", \"seats\": 10, \"period\": \"2026.04~2027.03\"}",
+      "status": "REJECTED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "김개발",
+      "submitted_at": "2026-03-05T11:00:00+09:00",
+      "completed_at": "2026-03-05T15:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "REJECTED", "comment": "GitHub Team으로 다운그레이드 검토 후 재신청 바랍니다.", "acted_at": "2026-03-05T15:00:00+09:00"},
+        {"approver_name": "이영업", "step_order": 2, "line_type": "SEQUENTIAL", "status": "PENDING", "comment": null, "acted_at": null}
+      ]
+    },
+    {
+      "template_name": "출장신청서",
+      "title": "제주 고객사 PT 출장",
+      "content_json": "{\"destination\": \"제주시\", \"client\": \"(주)제주소프트\", \"start_date\": \"2026-03-19\", \"end_date\": \"2026-03-20\", \"estimated_cost\": 650000}",
+      "status": "IN_PROGRESS",
+      "urgency": "NORMAL",
+      "submitted_by_name": "이영업",
+      "submitted_at": "2026-03-06T14:00:00+09:00",
+      "completed_at": null,
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": null, "acted_at": "2026-03-06T17:00:00+09:00"},
+        {"approver_name": "이영업", "step_order": 2, "line_type": "SEQUENTIAL", "status": "PENDING", "comment": null, "acted_at": null}
+      ]
+    },
+    {
+      "template_name": "업무협조전",
+      "title": "상반기 인사평가 일정 협조",
+      "content_json": "{\"subject\": \"인사평가\", \"request\": \"자기평가 3/16~3/20, 팀장평가 3/23~3/27 일정 안내 협조 요청\"}",
+      "status": "APPROVED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "정인사",
+      "submitted_at": "2026-03-09T09:00:00+09:00",
+      "completed_at": "2026-03-09T14:00:00+09:00",
+      "lines": [
+        {"approver_name": "이영업", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "일정 확인했습니다", "acted_at": "2026-03-09T14:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "네트워크 스위치 교체",
+      "content_json": "{\"amount\": 3800000, \"purpose\": \"노후 네트워크 스위치 교체\", \"items\": [{\"name\": \"Cisco Catalyst 1300-24T\", \"qty\": 2, \"unit_price\": 1900000}]}",
+      "status": "REJECTED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "한인프라",
+      "submitted_at": "2026-03-10T10:00:00+09:00",
+      "completed_at": "2026-03-11T16:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "기술적으로 필요합니다", "acted_at": "2026-03-10T15:00:00+09:00"},
+        {"approver_name": "이영업", "step_order": 2, "line_type": "SEQUENTIAL", "status": "REJECTED", "comment": "2분기 IT 인프라 예산에 반영하여 재신청 바랍니다.", "acted_at": "2026-03-11T16:00:00+09:00"}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "사무실 정수기 렌탈 계약",
+      "content_json": "{\"amount\": 480000, \"purpose\": \"정수기 렌탈 연간 계약\", \"vendor\": \"코웨이\", \"monthly_cost\": 40000}",
+      "status": "IN_PROGRESS",
+      "urgency": "NORMAL",
+      "submitted_by_name": "최총무",
+      "submitted_at": "2026-03-12T09:00:00+09:00",
+      "completed_at": null,
+      "lines": [
+        {"approver_name": "이영업", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": null, "acted_at": "2026-03-12T14:00:00+09:00"},
+        {"approver_name": "관리자", "step_order": 2, "line_type": "SEQUENTIAL", "status": "PENDING", "comment": null, "acted_at": null}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "보안 솔루션 도입 (EDR)",
+      "content_json": "{\"amount\": 12000000, \"purpose\": \"엔드포인트 보안 솔루션 도입\", \"vendor\": \"CrowdStrike\", \"seats\": 15, \"period\": \"연간\"}",
+      "status": "SUBMITTED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "한인프라",
+      "submitted_at": "2026-03-16T10:00:00+09:00",
+      "completed_at": null,
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "PENDING", "comment": null, "acted_at": null},
+        {"approver_name": "이영업", "step_order": 2, "line_type": "SEQUENTIAL", "status": "PENDING", "comment": null, "acted_at": null}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "디자인 외주 (앱 리뉴얼)",
+      "content_json": "{\"amount\": 8500000, \"purpose\": \"모바일 앱 UI/UX 리뉴얼 디자인 외주\", \"vendor\": \"(주)디자인랩\", \"period\": \"2개월\"}",
+      "status": "DRAFT",
+      "urgency": "NORMAL",
+      "submitted_by_name": "박디자인",
+      "submitted_at": null,
+      "completed_at": null,
+      "lines": []
+    },
+    {
+      "template_name": "품의서",
+      "title": "하반기 채용 계획",
+      "content_json": "{\"positions\": [{\"title\": \"백엔드 개발자\", \"count\": 2}, {\"title\": \"프론트엔드 개발자\", \"count\": 1}], \"budget\": 5000000}",
+      "status": "DRAFT",
+      "urgency": "NORMAL",
+      "submitted_by_name": "정인사",
+      "submitted_at": null,
+      "completed_at": null,
+      "lines": []
+    },
+    {
+      "template_name": "지출결의서",
+      "title": "3월 야근 택시비 정산",
+      "content_json": "{\"items\": [{\"name\": \"야근 택시비 (김개발 5회)\", \"price\": 85000}, {\"name\": \"야근 택시비 (한인프라 3회)\", \"price\": 52000}], \"total\": 137000}",
+      "status": "CANCELLED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "김개발",
+      "submitted_at": "2026-03-18T09:00:00+09:00",
+      "completed_at": null,
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "CANCELLED", "comment": null, "acted_at": null}
+      ]
+    },
+    {
+      "template_name": "품의서",
+      "title": "REJECTED GitHub Team 라이선스",
+      "content_json": "{\"amount\": 1680000, \"purpose\": \"GitHub Team 연간 라이선스\", \"seats\": 10, \"period\": \"2026.04~2027.03\"}",
+      "status": "REJECTED",
+      "urgency": "NORMAL",
+      "submitted_by_name": "김개발",
+      "submitted_at": "2026-03-19T11:00:00+09:00",
+      "completed_at": "2026-03-20T10:00:00+09:00",
+      "lines": [
+        {"approver_name": "관리자", "step_order": 1, "line_type": "SEQUENTIAL", "status": "APPROVED", "comment": "Team 플랜으로 충분합니다", "acted_at": "2026-03-19T15:00:00+09:00"},
+        {"approver_name": "이영업", "step_order": 2, "line_type": "SEQUENTIAL", "status": "REJECTED", "comment": "오픈소스 대안 검토 후 재신청 바랍니다.", "acted_at": "2026-03-20T10:00:00+09:00"}
+      ]
+    }
+  ]
+}

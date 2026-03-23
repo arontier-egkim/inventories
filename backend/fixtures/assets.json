@@ -1,0 +1,426 @@
+{
+  "assets": [
+    {
+      "category_code": "HW_LAPTOP",
+      "asset_number": "NB-2026-001",
+      "name": "MacBook Pro 14 M3",
+      "manufacturer": "Apple",
+      "model": "MacBook Pro 14인치",
+      "serial_number": "C02TG1ABCDEF",
+      "purchase_date": "2025-03-15",
+      "purchase_price": 3200000,
+      "location": "본사 3층",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_LAPTOP",
+      "asset_number": "NB-2026-002",
+      "name": "MacBook Pro 16 M3 Pro",
+      "manufacturer": "Apple",
+      "model": "MacBook Pro 16인치",
+      "serial_number": "C02TG2BCDEFG",
+      "purchase_date": "2025-03-15",
+      "purchase_price": 4200000,
+      "location": "본사 3층",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_LAPTOP",
+      "asset_number": "NB-2026-003",
+      "name": "MacBook Air 15 M3",
+      "manufacturer": "Apple",
+      "model": "MacBook Air 15인치",
+      "serial_number": "C02TG3CDEFGH",
+      "purchase_date": "2025-06-01",
+      "purchase_price": 2400000,
+      "location": "본사 3층",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_LAPTOP",
+      "asset_number": "NB-2026-004",
+      "name": "Dell Latitude 5540",
+      "manufacturer": "Dell",
+      "model": "Latitude 5540",
+      "serial_number": "DL5540A1B2C3",
+      "purchase_date": "2025-01-10",
+      "purchase_price": 1800000,
+      "location": "본사 2층",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_LAPTOP",
+      "asset_number": "NB-2026-005",
+      "name": "Dell Latitude 5540",
+      "manufacturer": "Dell",
+      "model": "Latitude 5540",
+      "serial_number": "DL5540D4E5F6",
+      "purchase_date": "2025-01-10",
+      "purchase_price": 1800000,
+      "location": "본사 2층",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_LAPTOP",
+      "asset_number": "NB-2026-006",
+      "name": "LG 그램 17 (2025)",
+      "manufacturer": "LG",
+      "model": "17Z90S-G.AA7CK",
+      "serial_number": "LG17Z90S1A2B3",
+      "purchase_date": "2025-04-20",
+      "purchase_price": 2100000,
+      "location": "본사 2층",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_LAPTOP",
+      "asset_number": "NB-2026-007",
+      "name": "MacBook Pro 14 M2",
+      "manufacturer": "Apple",
+      "model": "MacBook Pro 14인치 (2023)",
+      "serial_number": "C02SG4DEFGHI",
+      "purchase_date": "2023-09-01",
+      "purchase_price": 2800000,
+      "location": "본사 3층",
+      "status": "AVAILABLE"
+    },
+    {
+      "category_code": "HW_LAPTOP",
+      "asset_number": "NB-2026-008",
+      "name": "Dell XPS 15 9530",
+      "manufacturer": "Dell",
+      "model": "XPS 15 9530",
+      "serial_number": "DLXPS15G7H8I9",
+      "purchase_date": "2023-06-15",
+      "purchase_price": 2500000,
+      "location": "IT 자산 창고",
+      "status": "IN_REPAIR"
+    },
+    {
+      "category_code": "HW_MONITOR",
+      "asset_number": "MN-2026-001",
+      "name": "LG 27UK850 4K 모니터",
+      "manufacturer": "LG",
+      "model": "27UK850-W",
+      "serial_number": "LG27UK001ABC",
+      "purchase_date": "2024-08-10",
+      "purchase_price": 650000,
+      "location": "본사 3층",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_MONITOR",
+      "asset_number": "MN-2026-002",
+      "name": "LG 27UK850 4K 모니터",
+      "manufacturer": "LG",
+      "model": "27UK850-W",
+      "serial_number": "LG27UK002DEF",
+      "purchase_date": "2024-08-10",
+      "purchase_price": 650000,
+      "location": "본사 3층",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_MONITOR",
+      "asset_number": "MN-2026-003",
+      "name": "Dell U2723QE 4K 모니터",
+      "manufacturer": "Dell",
+      "model": "U2723QE",
+      "serial_number": "DLU27003GHI",
+      "purchase_date": "2024-11-05",
+      "purchase_price": 780000,
+      "location": "본사 3층",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_MONITOR",
+      "asset_number": "MN-2026-004",
+      "name": "Dell U2723QE 4K 모니터",
+      "manufacturer": "Dell",
+      "model": "U2723QE",
+      "serial_number": "DLU27004JKL",
+      "purchase_date": "2024-11-05",
+      "purchase_price": 780000,
+      "location": "본사 2층",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_MONITOR",
+      "asset_number": "MN-2026-005",
+      "name": "Samsung 오디세이 G5 32인치",
+      "manufacturer": "Samsung",
+      "model": "LC32G55TQWKXKR",
+      "serial_number": "SS32G5005MNO",
+      "purchase_date": "2023-05-20",
+      "purchase_price": 450000,
+      "location": "IT 자산 창고",
+      "status": "AVAILABLE"
+    },
+    {
+      "category_code": "HW_MONITOR",
+      "asset_number": "MN-2026-006",
+      "name": "LG 24MK430H 모니터",
+      "manufacturer": "LG",
+      "model": "24MK430H-B",
+      "serial_number": "LG24MK006PQR",
+      "purchase_date": "2021-03-10",
+      "purchase_price": 180000,
+      "location": "폐기 대기",
+      "status": "DISPOSED"
+    },
+    {
+      "category_code": "HW_DESKTOP",
+      "asset_number": "PC-2026-001",
+      "name": "HP ProDesk 400 G9",
+      "manufacturer": "HP",
+      "model": "ProDesk 400 G9 SFF",
+      "serial_number": "HPPD400A1B2C3",
+      "purchase_date": "2024-05-15",
+      "purchase_price": 1200000,
+      "location": "본사 2층",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_DESKTOP",
+      "asset_number": "PC-2026-002",
+      "name": "HP ProDesk 400 G9",
+      "manufacturer": "HP",
+      "model": "ProDesk 400 G9 SFF",
+      "serial_number": "HPPD400D4E5F6",
+      "purchase_date": "2024-05-15",
+      "purchase_price": 1200000,
+      "location": "본사 2층",
+      "status": "AVAILABLE"
+    },
+    {
+      "category_code": "HW_DESKTOP",
+      "asset_number": "PC-2026-003",
+      "name": "Dell OptiPlex 7010",
+      "manufacturer": "Dell",
+      "model": "OptiPlex 7010 MFF",
+      "serial_number": "DLOP7010G7H8",
+      "purchase_date": "2023-02-20",
+      "purchase_price": 980000,
+      "location": "IT 자산 창고",
+      "status": "IN_REPAIR"
+    },
+    {
+      "category_code": "HW_SERVER",
+      "asset_number": "SV-2026-001",
+      "name": "Dell PowerEdge R750",
+      "manufacturer": "Dell",
+      "model": "PowerEdge R750xs",
+      "serial_number": "DLPE750A1B2C3",
+      "purchase_date": "2024-01-20",
+      "purchase_price": 15000000,
+      "location": "서버실",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_SERVER",
+      "asset_number": "SV-2026-002",
+      "name": "HP ProLiant DL380 Gen10",
+      "manufacturer": "HP",
+      "model": "ProLiant DL380 Gen10",
+      "serial_number": "HPDL380D4E5F6",
+      "purchase_date": "2022-06-10",
+      "purchase_price": 12000000,
+      "location": "서버실",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_PRINTER",
+      "asset_number": "PR-2026-001",
+      "name": "HP Color LaserJet Pro M479fdw",
+      "manufacturer": "HP",
+      "model": "M479fdw",
+      "serial_number": "HPCLJ479A1B2",
+      "purchase_date": "2024-03-05",
+      "purchase_price": 850000,
+      "location": "본사 2층 복합기실",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "HW_PRINTER",
+      "asset_number": "PR-2026-002",
+      "name": "Samsung SL-C4010ND",
+      "manufacturer": "Samsung",
+      "model": "SL-C4010ND",
+      "serial_number": "SSC4010C3D4E5",
+      "purchase_date": "2022-09-15",
+      "purchase_price": 600000,
+      "location": "본사 3층 복합기실",
+      "status": "IN_REPAIR"
+    },
+    {
+      "category_code": "HW_SCANNER",
+      "asset_number": "SC-2026-001",
+      "name": "Fujitsu ScanSnap iX1600",
+      "manufacturer": "Fujitsu",
+      "model": "ScanSnap iX1600",
+      "serial_number": "FJSS1600F6G7H8",
+      "purchase_date": "2024-07-01",
+      "purchase_price": 520000,
+      "location": "본사 2층",
+      "status": "AVAILABLE"
+    },
+    {
+      "category_code": "SW_OS",
+      "asset_number": "SW-2026-001",
+      "name": "Microsoft 365 Business (10 Seats)",
+      "manufacturer": "Microsoft",
+      "model": "Microsoft 365 Business Premium",
+      "serial_number": "MS365-2026-CORP-001",
+      "purchase_date": "2026-01-01",
+      "purchase_price": 2640000,
+      "location": "클라우드",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "SW_OFFICE",
+      "asset_number": "SW-2026-002",
+      "name": "JetBrains All Products Pack (5 Seats)",
+      "manufacturer": "JetBrains",
+      "model": "All Products Pack",
+      "serial_number": "JB-ALLPROD-2026-001",
+      "purchase_date": "2026-01-01",
+      "purchase_price": 3500000,
+      "location": "클라우드",
+      "status": "IN_USE"
+    },
+    {
+      "category_code": "SW_DEV",
+      "asset_number": "SW-2026-003",
+      "name": "Adobe Creative Cloud (3 Seats)",
+      "manufacturer": "Adobe",
+      "model": "Creative Cloud for Teams",
+      "serial_number": "ADOBE-CC-2026-001",
+      "purchase_date": "2025-07-01",
+      "purchase_price": 1980000,
+      "location": "클라우드",
+      "status": "DISPOSED"
+    }
+  ],
+  "assignments": [
+    {
+      "asset_index": 0,
+      "assignee_type": "USER",
+      "assignee_name": "관리자",
+      "is_active": true
+    },
+    {
+      "asset_index": 1,
+      "assignee_type": "USER",
+      "assignee_name": "김개발",
+      "is_active": true
+    },
+    {
+      "asset_index": 2,
+      "assignee_type": "USER",
+      "assignee_name": "박디자인",
+      "is_active": true
+    },
+    {
+      "asset_index": 3,
+      "assignee_type": "USER",
+      "assignee_name": "이영업",
+      "is_active": true
+    },
+    {
+      "asset_index": 4,
+      "assignee_type": "USER",
+      "assignee_name": "정인사",
+      "is_active": true
+    },
+    {
+      "asset_index": 5,
+      "assignee_type": "USER",
+      "assignee_name": "최총무",
+      "is_active": true
+    },
+    {
+      "asset_index": 6,
+      "assignee_type": "USER",
+      "assignee_name": "한인프라",
+      "is_active": false
+    },
+    {
+      "asset_index": 8,
+      "assignee_type": "USER",
+      "assignee_name": "관리자",
+      "is_active": true
+    },
+    {
+      "asset_index": 9,
+      "assignee_type": "USER",
+      "assignee_name": "김개발",
+      "is_active": true
+    },
+    {
+      "asset_index": 10,
+      "assignee_type": "USER",
+      "assignee_name": "박디자인",
+      "is_active": true
+    },
+    {
+      "asset_index": 11,
+      "assignee_type": "USER",
+      "assignee_name": "이영업",
+      "is_active": true
+    },
+    {
+      "asset_index": 14,
+      "assignee_type": "USER",
+      "assignee_name": "정인사",
+      "is_active": true
+    },
+    {
+      "asset_index": 17,
+      "assignee_type": "DEPT",
+      "assignee_name": "인프라팀",
+      "is_active": true
+    },
+    {
+      "asset_index": 18,
+      "assignee_type": "DEPT",
+      "assignee_name": "인프라팀",
+      "is_active": true
+    },
+    {
+      "asset_index": 19,
+      "assignee_type": "DEPT",
+      "assignee_name": "총무팀",
+      "is_active": true
+    },
+    {
+      "asset_index": 22,
+      "assignee_type": "DEPT",
+      "assignee_name": "개발팀",
+      "is_active": true
+    },
+    {
+      "asset_index": 23,
+      "assignee_type": "DEPT",
+      "assignee_name": "개발팀",
+      "is_active": true
+    },
+    {
+      "asset_index": 3,
+      "assignee_type": "USER",
+      "assignee_name": "한인프라",
+      "is_active": false
+    },
+    {
+      "asset_index": 5,
+      "assignee_type": "USER",
+      "assignee_name": "한인프라",
+      "is_active": false
+    },
+    {
+      "asset_index": 15,
+      "assignee_type": "USER",
+      "assignee_name": "최총무",
+      "is_active": false
+    }
+  ]
+}

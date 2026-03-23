@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+*.egg
+
+# Database
+*.db
+*.sqlite3
+
+# Uploads
+uploads/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Node.js
+node_modules/
+.next/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Claude Code
+.claude/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage
+coverage/
+.coverage
+htmlcov/

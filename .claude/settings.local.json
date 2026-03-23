@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(pg_isready)",
+      "Bash(brew list:*)",
+      "Bash(pip3 --version)",
+      "Bash(npx --version)",
+      "Bash(npx create-next-app@latest frontend --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --yes)",
+      "Bash(npx shadcn@latest init -d)",
+      "Bash(npx shadcn@latest add card input label select tabs table badge dialog alert-dialog toast dropdown-menu sidebar breadcrumb command checkbox textarea separator avatar sheet form calendar popover sonner -y)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest add card input label select tabs table badge dialog alert-dialog dropdown-menu sidebar breadcrumb command checkbox textarea separator avatar sheet form calendar popover sonner -y)",
+      "Bash(pip install:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python3 -m venv venv)",
+      "Bash(source venv/bin/activate)",
+      "Bash(python3.12 -m venv venv)",
+      "Bash(python -m uvicorn app.main:app --reload --port 8000)",
+      "Bash(curl -s http://localhost:8000/docs -o /dev/null -w \"%{http_code}\")",
+      "Bash(curl -s -X POST http://localhost:8000/api/v1/auth/login -H \"Content-Type: application/json\" -d '{\"\"\"\"email\"\"\"\":\"\"\"\"admin@arontier.com\"\"\"\",\"\"\"\"password\"\"\"\":\"\"\"\"admin1234!\"\"\"\"}')",
+      "Bash(python3.12 -m json.tool)",
+      "Bash(ls -la /Users/egkim/Developer/arontier-egkim/inventories/backend/fixtures/*.json)"
+    ]
+  }
+}

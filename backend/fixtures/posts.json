@@ -1,0 +1,246 @@
+{
+  "posts": [
+    {
+      "board_name": "자유게시판",
+      "title": "점심 맛집 추천해주세요",
+      "content": "회사 근처 점심 먹을 만한 곳 추천 부탁드립니다. 한식이면 좋겠어요!",
+      "author_name": "최총무",
+      "view_count": 23,
+      "created_at": "2026-01-10T12:30:00+09:00"
+    },
+    {
+      "board_name": "자유게시판",
+      "title": "연말정산 간소화 서비스 이용 팁",
+      "content": "홈택스에서 연말정산 간소화 서비스 이용할 때 꿀팁 공유합니다. 1월 15일 이후에 조회하면 누락 자료가 적어요.",
+      "author_name": "정인사",
+      "view_count": 31,
+      "created_at": "2026-01-12T09:15:00+09:00"
+    },
+    {
+      "board_name": "자유게시판",
+      "title": "주말 등산 같이 가실 분?",
+      "content": "이번 주 토요일 북한산 등산 계획 중인데 같이 가실 분 계신가요? 백운대 코스 예정입니다.",
+      "author_name": "한인프라",
+      "view_count": 15,
+      "created_at": "2026-01-21T17:00:00+09:00"
+    },
+    {
+      "board_name": "자유게시판",
+      "title": "사내 스터디 모집 (React)",
+      "content": "React 스터디 모집합니다. 매주 수요일 점심시간에 1시간씩 진행할 예정이에요. 관심 있으신 분 댓글 남겨주세요.",
+      "author_name": "김개발",
+      "view_count": 28,
+      "created_at": "2026-02-03T10:30:00+09:00"
+    },
+    {
+      "board_name": "자유게시판",
+      "title": "회사 근처 카페 추천",
+      "content": "오후에 커피 마시러 갈 만한 곳 추천합니다. 역삼역 3번 출구 쪽에 새로 생긴 '브루잉라운지' 괜찮아요.",
+      "author_name": "박디자인",
+      "view_count": 19,
+      "created_at": "2026-02-10T14:20:00+09:00"
+    },
+    {
+      "board_name": "자유게시판",
+      "title": "설 연휴 귀성길 교통 정보 공유",
+      "content": "설 연휴 귀성길 교통 정보 공유합니다. 27일 오후 2시 이후 경부고속도로 정체 예상됩니다. 일찍 출발하세요!",
+      "author_name": "이영업",
+      "view_count": 12,
+      "created_at": "2026-01-26T11:00:00+09:00"
+    },
+    {
+      "board_name": "자유게시판",
+      "title": "헬스장 법인 회원권 공유",
+      "content": "회사 복지몰에서 헬스장 법인 회원권 구매 가능한 거 아시나요? 월 3만원이면 이용 가능합니다.",
+      "author_name": "관리자",
+      "view_count": 34,
+      "created_at": "2026-02-17T16:45:00+09:00"
+    },
+    {
+      "board_name": "자유게시판",
+      "title": "개발 컨퍼런스 후기 (FEConf 2026)",
+      "content": "지난 주말 FEConf 2026 다녀왔습니다. 올해 키노트는 AI 기반 프론트엔드 개발 자동화였는데 인상적이었어요. 발표 자료 링크 첨부합니다.",
+      "author_name": "김개발",
+      "view_count": 45,
+      "created_at": "2026-03-02T09:30:00+09:00"
+    },
+    {
+      "board_name": "자유게시판",
+      "title": "분실물 찾습니다 (에어팟)",
+      "content": "3층 회의실에 에어팟 프로 분실했습니다. 케이스에 스티커 붙어있어요. 발견하신 분 연락 부탁드립니다.",
+      "author_name": "박디자인",
+      "view_count": 8,
+      "created_at": "2026-03-12T18:00:00+09:00"
+    },
+    {
+      "board_name": "자유게시판",
+      "title": "봄맞이 사무실 대청소 날짜 투표",
+      "content": "봄맞이 사무실 대청소를 계획 중입니다. 3월 27일(금) vs 4월 3일(금) 중 투표 부탁드려요!",
+      "author_name": "최총무",
+      "view_count": 6,
+      "created_at": "2026-03-18T10:00:00+09:00"
+    }
+  ],
+  "comments": [
+    {
+      "post_index": 0,
+      "author_name": "박디자인",
+      "content": "역삼역 근처 돈까스집 추천! '카츠온'이라고 점심특선 8000원이에요.",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-01-10T12:45:00+09:00"
+    },
+    {
+      "post_index": 0,
+      "author_name": "한인프라",
+      "content": "저도 거기 자주 가요. 치즈돈까스가 맛있어요.",
+      "parent_index": 0,
+      "is_deleted": false,
+      "created_at": "2026-01-10T13:00:00+09:00"
+    },
+    {
+      "post_index": 0,
+      "author_name": "김개발",
+      "content": "선릉역 쪽 '한솥밥'도 괜찮아요. 된장찌개 맛집입니다.",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-01-10T13:15:00+09:00"
+    },
+    {
+      "post_index": 1,
+      "author_name": "최총무",
+      "content": "좋은 정보 감사합니다! 작년에 누락된 게 있어서 올해는 꼼꼼히 확인해야겠네요.",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-01-12T10:00:00+09:00"
+    },
+    {
+      "post_index": 1,
+      "author_name": "관리자",
+      "content": "의료비 세액공제 부분도 잘 확인하세요.",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-01-12T11:30:00+09:00"
+    },
+    {
+      "post_index": 2,
+      "author_name": "김개발",
+      "content": "저도 가고 싶은데 시간이 될지 모르겠네요. 몇 시 출발인가요?",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-01-21T17:30:00+09:00"
+    },
+    {
+      "post_index": 3,
+      "author_name": "박디자인",
+      "content": "저 참여하고 싶어요! React 초보인데 괜찮을까요?",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-02-03T11:00:00+09:00"
+    },
+    {
+      "post_index": 3,
+      "author_name": "김개발",
+      "content": "초보 환영합니다! 기초부터 같이 공부해요.",
+      "parent_index": 6,
+      "is_deleted": false,
+      "created_at": "2026-02-03T11:30:00+09:00"
+    },
+    {
+      "post_index": 3,
+      "author_name": "한인프라",
+      "content": "저도 참여할게요. Next.js도 다루나요?",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-02-03T12:00:00+09:00"
+    },
+    {
+      "post_index": 3,
+      "author_name": "김개발",
+      "content": "네, 후반부에 Next.js도 다룰 예정입니다.",
+      "parent_index": 8,
+      "is_deleted": false,
+      "created_at": "2026-02-03T12:15:00+09:00"
+    },
+    {
+      "post_index": 4,
+      "author_name": "최총무",
+      "content": "거기 디저트도 맛있다고 들었어요.",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-02-10T15:00:00+09:00"
+    },
+    {
+      "post_index": 5,
+      "author_name": "정인사",
+      "content": "감사합니다. 저는 KTX 예매했는데 이미 매진이 많더라고요.",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-01-26T11:30:00+09:00"
+    },
+    {
+      "post_index": 7,
+      "author_name": "박디자인",
+      "content": "발표 자료 공유 감사합니다! AI 코드 생성 세션이 특히 흥미로웠겠네요.",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-03-02T10:00:00+09:00"
+    },
+    {
+      "post_index": 7,
+      "author_name": "한인프라",
+      "content": "혹시 인프라 관련 세션도 있었나요?",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-03-02T10:30:00+09:00"
+    },
+    {
+      "post_index": 7,
+      "author_name": "김개발",
+      "content": "네, 클라우드 네이티브 프론트엔드 배포 관련 세션이 있었어요.",
+      "parent_index": 13,
+      "is_deleted": false,
+      "created_at": "2026-03-02T11:00:00+09:00"
+    },
+    {
+      "post_index": 7,
+      "author_name": "관리자",
+      "content": "다음에는 팀 단위로 참석하면 좋겠네요.",
+      "parent_index": null,
+      "is_deleted": true,
+      "created_at": "2026-03-02T11:30:00+09:00"
+    },
+    {
+      "post_index": 7,
+      "author_name": "김개발",
+      "content": "좋은 생각이에요! 팀장님께 건의해볼게요.",
+      "parent_index": 15,
+      "is_deleted": false,
+      "created_at": "2026-03-02T12:00:00+09:00"
+    },
+    {
+      "post_index": 7,
+      "author_name": "정인사",
+      "content": "교육비 지원도 가능할 것 같아요. 인사팀에 문의해주세요.",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-03-02T14:00:00+09:00"
+    },
+    {
+      "post_index": 7,
+      "author_name": "최총무",
+      "content": "발표 자료 링크가 안 열리는데 확인 부탁드려요.",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-03-03T09:00:00+09:00"
+    },
+    {
+      "post_index": 9,
+      "author_name": "한인프라",
+      "content": "3월 27일이 좋겠습니다!",
+      "parent_index": null,
+      "is_deleted": false,
+      "created_at": "2026-03-18T10:30:00+09:00"
+    }
+  ]
+}
